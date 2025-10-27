@@ -28,6 +28,18 @@ http://127.0.0.1:8000/docs
 
 This interactive Swagger UI lets you test the endpoints directly.
 
+🧭 Quick start
+
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Start the API
+uvicorn app:app --reload
+
+# 3. Open this URL in your browser
+http://127.0.0.1:8000/docs
+
+
 🔍 Endpoints
 /convert
 
